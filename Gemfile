@@ -55,3 +55,13 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# Add all graphql gems used in abp-backend
+gem 'graphql', '2.3.14'
+gem 'graphiql-rails'
+# gem 'graphql-batch'
+# gem 'graphql-voyager-rails'
+# gem 'graphql-fragment_cache', '1.20.2'
+# gem 'graphql-decorate', git: 'https://git.corp.tc/Software-Apps/graphql-decorate.git', branch: 'master'
+# gem 'graphql-pro' # Requires specific source setup if used
+# gem 'graphql-schema_comparator'
